@@ -8,7 +8,7 @@ public class QueueExample {
         queue.Enqueue(10);
         queue.Enqueue(20);
         queue.Enqueue(30);
-        
+         
         Console.WriteLine("Queue: " + string.Join(", ", queue));
         
         int removedElement = queue.Dequeue();
